@@ -14,7 +14,6 @@ class TestHootel(object):
         options.add_argument("--headless")
         self.browser = webdriver.Chrome(options=options)
         self.browser.get(URL)
-        self.browser.set_window_size(992, 600)
 
     def teardown_method(self):
         self.browser.quit()
@@ -25,7 +24,7 @@ class TestHootel(object):
     @allure.tag("login")
     def test_login_991px(self):
         self.browser.set_window_size(991, 600)
-        hamburger_btn = self.browser.find_element(By.XPATH, "//span[@class='navbar-toggler-icon']")
+        hamburger_btn = self.browser.find_element(By.XPATH, '//span[@class="navbar-toggler-icon"]')
         hamburger_btn.click=()
         time.sleep(2)
         login_btn = self.browser.find_element(By.XPATH, '//a[@class="nav-link"]')
