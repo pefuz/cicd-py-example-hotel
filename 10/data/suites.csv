@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1081","test_hotel_list","test","Tue Jun 24 17:03:49 GMT 2025","passed","Tue Jun 24 17:03:50 GMT 2025","TestHootel","test_hootel","",""
+"A belépés tesztelése","3954","Hootel Login","test","Tue Jun 24 17:03:40 GMT 2025","passed","Tue Jun 24 17:03:44 GMT 2025","TestHootel","test_hootel","",""
+"","1336","test_login_992px","test","Tue Jun 24 17:03:46 GMT 2025","passed","Tue Jun 24 17:03:47 GMT 2025","TestHootel","test_hootel","",""
